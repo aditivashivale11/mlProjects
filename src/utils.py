@@ -3,6 +3,7 @@ import sys
 import numpy as np
 import pandas as pd
 from src.exception import CustomException
+import pickle
 
 def save_object(file_path, obj):
     try:
